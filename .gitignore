@@ -1,0 +1,7 @@
+.~*
+Data/
+.DS_Store
+.ipynb_checkpoints/
+*.log
+node_modules/
+.vscode/
