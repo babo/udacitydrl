@@ -1,7 +1,8 @@
+__pycache__/
 .~*
-Data/
 .DS_Store
 .ipynb_checkpoints/
-*.log
-node_modules/
 .vscode/
+*.log
+Data/
+node_modules/
