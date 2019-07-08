@@ -1,0 +1,128 @@
+Found path: /home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis.x86_64
+Mono path[0] = '/home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis_Data/Managed'
+Mono config path = '/home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis_Data/MonoBleedingEdge/etc'
+Preloaded 'ScreenSelector.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Unable to preload the following plugins:
+	ScreenSelector.so
+	libgrpc_csharp_ext.x86.so
+Logging to /home/babo/.config/unity3d/Unity Technologies/Unity Environment/Player.log
+Found path: /home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis.x86_64
+Mono path[0] = '/home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis_Data/Managed'
+Mono config path = '/home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis_Data/MonoBleedingEdge/etc'
+Preloaded 'ScreenSelector.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Unable to preload the following plugins:
+	ScreenSelector.so
+	libgrpc_csharp_ext.x86.so
+Logging to /home/babo/.config/unity3d/Unity Technologies/Unity Environment/Player.log
+Found path: /home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis.x86_64
+Mono path[0] = '/home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis_Data/Managed'
+Mono config path = '/home/babo/src/abl/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis_Data/MonoBleedingEdge/etc'
+Preloaded 'ScreenSelector.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Unable to preload the following plugins:
+	ScreenSelector.so
+	libgrpc_csharp_ext.x86.so
+Logging to /home/babo/.config/unity3d/Unity Technologies/Unity Environment/Player.log
+Scored: 2.39 2.50
+Scored: -0.01 0.10
+Scored: -0.01 0.10
+Scored: 2.60 2.60
+Scored: 0.29 0.40
+Scored: -0.01 0.10
+Scored: 2.60 2.60
+Scored: 2.70 2.60
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 0.19 0.20
+Scored: 0.09 0.10
+Scored: 0.99 1.00
+Scored: 2.19 2.20
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 2.60 2.60
+Scored: 0.69 0.70
+Scored: 0.89 0.90
+Scored: 0.09 0.10
+Scored: 0.10 -0.01
+Scored: 0.29 0.30
+Scored: 2.60 2.60
+Scored: 0.39 0.50
+Scored: 1.60 1.59
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 2.40 2.29
+Scored: 2.60 2.60
+Scored: 1.49 1.50
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 2.60 2.60
+Scored: 0.99 1.00
+Scored: 0.79 0.90
+Scored: 1.09 1.10
+Scored: 2.60 2.60
+Scored: 2.49 2.60
+Scored: 0.09 0.10
+Scored: 2.60 2.60
+Scored: 2.70 2.60
+Scored: 2.60 2.60
+Scored: -0.01 0.10
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 1.20 1.09
+Scored: 1.69 1.80
+Scored: 0.79 0.80
+Scored: 0.09 0.10
+Scored: 0.60 0.59
+Scored: 2.60 2.60
+Scored: 1.29 1.40
+Scored: 2.39 2.40
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 1.79 1.80
+Scored: 1.49 1.60
+Scored: 2.60 2.60
+Scored: 0.39 0.40
+Scored: 2.19 2.30
+Scored: 2.60 2.60
+Scored: 1.00 0.99
+Scored: 1.89 1.90
+Scored: -0.01 0.10
+Scored: 2.60 2.60
+Scored: 0.89 0.90
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 1.09 1.10
+Scored: 1.69 1.80
+Scored: 2.60 2.60
+Scored: 2.70 2.60
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 2.20 2.09
+Scored: 2.60 2.60
+Scored: 2.70 2.60
+Scored: 1.89 2.00
+Scored: 1.49 1.60
+Scored: 2.60 2.60
+Scored: 0.59 0.70
+Scored: 0.10 -0.01
+Scored: 0.69 0.70
+Scored: 0.09 0.10
+Scored: 2.60 2.60
+Scored: 1.89 1.90
+Scored: 1.09 1.10
+Scored: 0.09 0.10
+Scored: 2.60 2.60
+Scored: 2.60 2.70
+Scored: 2.09 2.10
+Scored: 2.60 2.50
+Scored: 0.80 0.79
+Scored: 2.39 2.40
+Scored: 1.69 1.70
+Scored: 0.60 0.59
+Scored: 0.89 1.00
+Scored: -0.01 0.10
+Scored: 1.69 1.70
+Scored: 0.50 0.49
+Mean score 1.69 over 100

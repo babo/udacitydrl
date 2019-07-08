@@ -1,0 +1,36 @@
+digraph {
+	graph [bgcolor="#FFFFFF" color="#000000" fontcolor="#000000" fontname=Times fontsize=10 margin="0,0" pad="1.0,0.5"]
+	node [color="#000000" fillcolor="#E8E8E8" fontcolor="#000000" fontname=Times fontsize=10 margin="0,0" shape=box style=filled]
+	edge [color="#000000" fontcolor="#000000" fontname=Times fontsize=10 style=solid]
+	"Critic/Linear[fcs1]/outputs/15" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Transpose</td></tr></table>>]
+	"Critic/Linear[fcs1]/outputs/16" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MatMul</td></tr></table>>]
+	"/outputs/17" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"Critic/outputs/18" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>LeakyRelu</td></tr></table>>]
+	"Critic/outputs/19" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"Critic/Linear[fc2]/outputs/20" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Transpose</td></tr></table>>]
+	"Critic/Linear[fc2]/outputs/21" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MatMul</td></tr></table>>]
+	"/outputs/22" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"Critic/outputs/23" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>LeakyRelu</td></tr></table>>]
+	"Critic/Linear[fc3]/outputs/24" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Transpose</td></tr></table>>]
+	"Critic/Linear[fc3]/outputs/25" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MatMul</td></tr></table>>]
+	"/outputs/26" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"Critic/outputs/27" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>LeakyRelu</td></tr></table>>]
+	"Critic/Linear[fc4]/outputs/28" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Transpose</td></tr></table>>]
+	"Critic/Linear[fc4]/outputs/29" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MatMul</td></tr></table>>]
+	"/outputs/30" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"Critic/Linear[fcs1]/outputs/15" -> "Critic/Linear[fcs1]/outputs/16"
+	"Critic/Linear[fcs1]/outputs/16" -> "/outputs/17" [label=256]
+	"/outputs/17" -> "Critic/outputs/18" [label=256]
+	"Critic/outputs/18" -> "Critic/outputs/19" [label=256]
+	"Critic/outputs/19" -> "Critic/Linear[fc2]/outputs/21" [label=258]
+	"Critic/Linear[fc2]/outputs/20" -> "Critic/Linear[fc2]/outputs/21"
+	"Critic/Linear[fc2]/outputs/21" -> "/outputs/22" [label=256]
+	"/outputs/22" -> "Critic/outputs/23" [label=256]
+	"Critic/outputs/23" -> "Critic/Linear[fc3]/outputs/25" [label=256]
+	"Critic/Linear[fc3]/outputs/24" -> "Critic/Linear[fc3]/outputs/25"
+	"Critic/Linear[fc3]/outputs/25" -> "/outputs/26" [label=128]
+	"/outputs/26" -> "Critic/outputs/27" [label=128]
+	"Critic/outputs/27" -> "Critic/Linear[fc4]/outputs/29" [label=128]
+	"Critic/Linear[fc4]/outputs/28" -> "Critic/Linear[fc4]/outputs/29"
+	"Critic/Linear[fc4]/outputs/29" -> "/outputs/30" [label=1]
+}
